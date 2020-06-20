@@ -1,0 +1,44 @@
+/* divs */
+div {
+    background: rgb(133, 15, 211);
+    color: white;
+}
+
+/* ids */
+#quote {
+    font-family: "Verdana", 'Gill Sans';
+    color: black;
+}
+
+/* classes */
+.movie {
+    color: white;
+    background: steelblue;
+}
+
+span#author {
+    text-transform: uppercase;
+}
+
+#skills ol li {
+    color: purple;
+    background: white;
+}
+
+#skills ul li {
+    color: white;
+    background: steelblue;
+}
+
+h3 + p {
+    background: rgb(45, 179, 197);
+    color: white;
+}
+
+p[class] {
+    background: grey;
+}
+
+p[id] {
+    background: green;
+}
