@@ -1,0 +1,77 @@
+a:hover {
+    background: bisque;
+    color: red;
+}
+
+body {
+    background: salmon;
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    background: white;
+    width: 800px;
+    height: 1000px;
+}
+
+header {
+    padding: 0px 0px 10px 0px;
+}
+
+#horzNav:hover {
+    display: block;
+    background: cadetblue;
+    color: burlywood;
+}
+
+#para-1 {
+    word-spacing: 10px;
+}
+
+#para-1:after {
+    content: "@@@@@@@@";
+}
+
+#para-2 {
+    word-spacing: 10px;
+    letter-spacing: 20px;
+}
+
+footer {
+    clear: both;
+    background: black;
+    color: white;
+}
+
+ol {
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+
+ul {
+    background-color: teal;
+    width: 360px;
+    margin: 100px auto;
+}
+
+li:nth-child(2n) {
+    background-color: tomato;
+}
+
+#para-3:first-letter {
+    font-size: 50px;
+}
+
+p:hover {
+    background: wheat;
+    color: thistle;
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    outline: black;
+    cursor: text;
+    text-decoration: line-through;
+}
+
