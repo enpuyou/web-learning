@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(90deg, rgba(20,18,60,1) 7%, rgba(173,121,228,1) 66%, rgba(14,168,180,1) 100%);
+}
+
+div {
+    border: 2px solid black;
+    background: burlywood;
+    width: 300px;
+    height: 300px;
+}
+
+div:hover {
+    transform: scale(2) rotate(45deg) translate(100px, 100px);
+}
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: chocolate;
+    border: 3px solid black;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 20;
+}
+
+@keyframes animation {
+    0% {background-color: blueviolet; left: 0px; top: 0px;}
+    25% {background-color: rgb(43, 226, 180); left: 300px; top: 0px;}
+    50% {background-color: rgb(87, 26, 202); left: 300px; top: 300px;}
+    75% {background-color: rgb(94, 139, 93); left: 0px; top: 300px;}
+    100% {background-color: rgb(235, 169, 115); left: 0px; top: 0px;}
+}
