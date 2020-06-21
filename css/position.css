@@ -1,0 +1,58 @@
+#container {
+    background: indianred;
+    border: 2px solid black;
+    border-radius: 5px
+}
+
+#centered {
+    background: indigo;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Absolute positioning */
+#top-left {
+    background: indigo;
+    border: 2px solid lavender;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+#bottom-right {
+    background: lavender;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: black;
+
+    z-index: 5;
+}
+
+#fixed-position {
+    position: fixed;
+    background: black;
+    color: white;
+}
+
+#relative-1 {
+    background: yellowgreen;
+    color: tomato;
+    border: 2px solid black;
+}
+
+#relative-2 {
+    position: relative;
+    left: 20px;
+    top: 30px;
+    background: yellow;
+    color: tomato;
+    border: 2px solid black;
+}
+
+img {
+    float: right;
+}
+
+
